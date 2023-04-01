@@ -4,7 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const HomeView = () => import(/* webpackChunkName: "home" */ '../views/HomeView.vue');
 const LoginView = () => import(/* webpackChunkName: "login" */ '../views/LoginView.vue');
 const RegView = () => import(/* webpackChunkName: "reg" */ '../views/RegView.vue');
-const UsersView = () => import(/* webpackChunkName: "login" */ '../views/UsersView.vue');
+const UsersView = () => import(/* webpackChunkName: "users" */ '../views/UsersView.vue');
 
 const routes = [
     {
