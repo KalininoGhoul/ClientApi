@@ -8,8 +8,6 @@
         <input type="password" name="password" id="password"><br><br>
         <label for="role"></label>
         <select name="role_id" id="role">
-            <!-- ??????? -->
-            <!-- Откуда брать роли -->
             <option value="1">Админ</option>
             <option value="2">Официант</option>
             <option value="3">Повар</option>
